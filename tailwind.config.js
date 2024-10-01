@@ -7,10 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        '32': '32px'
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      spacing: {
+        '101': '101px',
+      },
+      maxWidth: {
+        '1728': '1728px',
+      }
     },
   },
   plugins: [],
